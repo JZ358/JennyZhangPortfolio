@@ -1,0 +1,41 @@
+.intro-background{
+    height: 100vh;
+}
+/* align flex box to the middle, 
+have spaces on the sides as screen widens*/
+.intro{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.intro-words{
+    flex: 2;
+    width: 200px;
+    justify-content: center;
+
+}
+
+.intro-gif{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro-button{
+   display: flex;
+   flex-direction: row;
+   width: 500px;
+   background-color: pink;
+   border-width: 10px; 
+   
+}
+
+.button-image{
+    width:20px;
+}
